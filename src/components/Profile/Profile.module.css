@@ -1,0 +1,68 @@
+.profileCard {
+  width: 400px;
+  padding: 20px 0 0;
+  border: 3px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #333;
+  margin: 0 auto 15px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 5px;
+  color: #000;
+}
+
+.usertag {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 5px;
+}
+
+.location {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 20px;
+}
+
+.statsContainer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.statsItem {
+  flex: 1;
+  padding: 20px;
+  background-color: #d9dbdb;
+  border-top: 2px solid #727474;
+}
+
+.statsItem:not(:last-child) {
+  border-right: 2px solid #727474;
+}
+
+.statsLabel {
+  display: block;
+  font-size: 16px;
+  color: #0a0a0a;
+  margin-bottom: 5px;
+}
+
+.statsValue {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #080808;
+}
